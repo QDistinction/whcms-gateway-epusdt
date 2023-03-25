@@ -1,0 +1,21 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "epusdt",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "EPUSDT",
+    "tagline": "USDT Payment",
+    "long": "Accept payments by USDT"
+  },
+  "support": {
+    "docs_url": "https:\/\/example.com\/docs"
+  },
+  "authors": [
+    {
+      "name": "QDistinction",
+      "homepage": "https:\/\/t.me\/QDistinction"
+    }
+  ]
+}
