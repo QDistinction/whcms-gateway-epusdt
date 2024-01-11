@@ -54,7 +54,8 @@ function epusdt_link(array $parameters)
         return "支付接口错误: " . $e->getMessage();
     }
 
-    return <<<HTML
-        <script type="text/javascript">window.location.href="{$redirectURL}";</script>
-    HTML;
+	return <<<EOF
+        <button type="button"  class="btn btn-sm btn-success" onclick="window.location.href='{$redirectURL}'">{$parameters['langpaynow']}</button>
+EOF;
+
 }
